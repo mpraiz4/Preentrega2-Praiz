@@ -1,0 +1,26 @@
+{
+  "name": "preentrega2.praiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "build-css": "node-sass --include-path scss scss/prueba.scss style/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpraiz4/Preentrega2-Praiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpraiz4/Preentrega2-Praiz/issues"
+  },
+  "homepage": "https://github.com/mpraiz4/Preentrega2-Praiz#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
